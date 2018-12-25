@@ -1,0 +1,36 @@
+
+
+@keyframes turning {
+    0%{
+        border-radius: 0 0 0 0;
+        transform: rotate(0der);
+    }
+    25%{
+        border-radius: 50% 0 0 0;
+        transform: rotate(45der);
+    }
+    50%{
+        border-radius: 50% 50% 0 0;
+        transform: rotate(90der);
+    }
+    75%{
+        border-radius: 50% 50% 50% 0;
+        transform: rotate(135der);
+    }
+    100%{
+
+        border-radius: 50% 50% 50% 50%;
+        transform: rotate(180der);
+}
+
+}
+
+div{
+    width: 220px;
+    height: 220px;
+    background-color:green;
+    margin: 300px;
+    animation: turning 2s ease-out 1s infinite alternate;
+    animation-nane:turming;
+    animation-delay: 2s;
+}
