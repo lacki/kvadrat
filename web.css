@@ -35,7 +35,6 @@ div{
     margin: 300px;
     animation: turning 2s ease-out 2s infinite alternate;
     animation-delay:  3s;
-
 }
 div:hover{
     animation-play-state: paused;
