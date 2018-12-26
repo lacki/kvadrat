@@ -1,26 +1,29 @@
 
-
+p{
+    color: blueviolet;
+    
+}
 @keyframes turning {
     0%{
         border-radius: 0 0 0 0;
-        transform: rotate(0der);
+        transform: rotate(0deg);
     }
     25%{
         border-radius: 50% 0 0 0;
-        transform: rotate(45der);
+        transform: rotate(45deg);
     }
     50%{
         border-radius: 50% 50% 0 0;
-        transform: rotate(90der);
+        transform: rotate(90deg);
     }
     75%{
         border-radius: 50% 50% 50% 0;
-        transform: rotate(135der);
+        transform: rotate(135deg); 
     }
     100%{
 
         border-radius: 50% 50% 50% 50%;
-        transform: rotate(180der);
+        transform: rotate(180deg);
 }
 
 }
@@ -30,7 +33,10 @@ div{
     height: 220px;
     background-color:green;
     margin: 300px;
-    animation: turning 2s ease-out 1s infinite alternate;
-    animation-nane:turming;
-    animation-delay: 2s;
+    animation: turning 2s ease-out 2s infinite alternate;
+    animation-delay:  3s;
+
+}
+div:hover{
+    animation-play-state: paused;
 }
